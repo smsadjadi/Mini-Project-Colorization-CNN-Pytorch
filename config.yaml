@@ -1,0 +1,6 @@
+
+
+initial_lr: 0.00003
+batch_size: 32
+nb_epochs: 20
+
