@@ -5,7 +5,7 @@ The CIE Lab color model describes all colors visible to the human eye in three p
   
 A deep convolutional network that takes the L parameter matrix of each image in the input and after several convolutional layers along with ReLU and BatchNorm without the Pool layer, obtains the a and b parameters of the image pixels was used. The simple model of this network can be seen below.  
 
-<img src="https://github.com/smsadjadi/Mini-Project-ImageColorization/assets/62998417/03d2b126-75f8-4ee1-9b71-7474ee9216fd.png" width="800"></div>  
+<img src="https://github.com/smsadjadi/Mini-Project-ImageColorization/assets/62998417/03d2b126-75f8-4ee1-9b71-7474ee9216fd.png"></div>  
 
 Notably, in the test phase, the temperature adjustment steps, the softmax function, the mean function, and the bilinear upsampling step are implemented as subsequent layers in the feed path. Also, the effective dilation used in the conv5 and conv6 layers is the space where the successive elements of the convolution kernel are evaluated relative to the input pixels. This step is calculated by multiplying the accumulated strides in the dilation of the layer. Through each convolutional block from conv1 to conv5, the effective expansion of the convolutional core increases and decreases from conv6 to conv8. The table below shows the details of the model architecture along with all the functions used.  
 
