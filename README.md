@@ -23,3 +23,4 @@ Here are some results of this model after 40 epochs compared to the original ima
 <img src="https://github.com/smsadjadi/Mini-Project-ImageColorization/assets/62998417/abc8bd7d-ffe8-4e15-b5b1-cb81b814fde1.png" width="400"></div>  
 <img src="https://github.com/smsadjadi/Mini-Project-ImageColorization/assets/62998417/812450b3-7e48-4405-b8c9-323fb10b4fa4.png" width="400"></div>  
 <img src="https://github.com/smsadjadi/Mini-Project-ImageColorization/assets/62998417/74edc91d-7694-4f74-98dc-0030b3ae4359.png" width="400"></div>  
+  
